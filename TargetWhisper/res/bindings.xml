@@ -1,0 +1,12 @@
+<Bindings>
+	<Layer name="SI_KEYBINDINGS_CATEGORY_GENERAL">
+		<Category name="TARGET_WHISPER_BINDING_CATEGORY_TITLE">
+			<Action name="TARGET_WHISPER_BINDING_STRING">
+				<Down>TargetWhisper.Start(false)</Down>
+			</Action>
+			<Action name="TARGET_WHISPER_BINDING_STRING_U">
+				<Down>TargetWhisper.Start(true)</Down>
+			</Action>
+		</Category>
+	</Layer>
+</Bindings>
