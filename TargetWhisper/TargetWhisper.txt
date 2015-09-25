@@ -6,8 +6,8 @@
 
 res/Strings.lua
 res/Strings-$(language).lua
-res/bindings.xml
 TargetWhisper.lua
+res/bindings.xml
 
 
 
