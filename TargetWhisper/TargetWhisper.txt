@@ -3,6 +3,7 @@
 ## Author: |c70C0DECaptainBlagbird|r
 ## APIVersion: 100012
 ## Description: Adds keybinding(s) for whispering to currently targeted player (including enemies).
+## SavedVariables: TargetWhisperSavedVariables
 
 res/Strings.lua
 res/Strings-$(language).lua
