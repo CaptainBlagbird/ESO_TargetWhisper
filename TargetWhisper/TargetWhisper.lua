@@ -9,7 +9,7 @@ https://github.com/CaptainBlagbird
 -- Addon info
 TargetWhisper = {}
 TargetWhisper.name = "TargetWhisper"
-local SLASH_CMD = "/targetwhisper"
+local SLASH_CMD = GetString(TARGETWHISPER_SLASH_CMD)
 -- Local variables
 local lastPlayer = ""
 local lastEnemy = ""
@@ -17,12 +17,12 @@ local savedVars = {}
 local num_reset_p = 0
 local num_reset_e = 0
 -- Language
-local MSG_INVALID_INPUT = "Invalid input"
-local MSG_USAGE         = "Usage: "..SLASH_CMD.." N\nN=0: Timeout off\nN>0: Timeout after N seconds"
-local MSG_CURRENT_TIME  = "Current timeout: "
-local MSG_SET_TO        = "Timeout set to "
-local MSG_SECONDS       = " second(s)"
-local MSG_TIME_OFF      = "Timeout off"
+local MSG_INVALID_INPUT = GetString(TARGETWHISPER_MSG_INVALID_INPUT)
+local MSG_USAGE         = GetString(TARGETWHISPER_MSG_USAGE)
+local MSG_CURRENT_TIME  = GetString(TARGETWHISPER_MSG_CURRENT_TIME)
+local MSG_SET_TO        = GetString(TARGETWHISPER_MSG_SET_TO)
+local MSG_SECONDS       = GetString(TARGETWHISPER_MSG_SECONDS)
+local MSG_TIME_OFF      = GetString(TARGETWHISPER_MSG_TIME_OFF)
 
 
 -- Function for starting chat with targeted player
